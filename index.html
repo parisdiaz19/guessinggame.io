@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <title>Guessing Game</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Number Guessing Game</h2>
+        <div id='game'>
+        <p>Select a random number from <span class="min-num">1</span> to <span class="max-num">10</span></p>
+        <div class="row">
+            <div class="input-field col s3">
+                <textarea name="" id="textarea1"  class="materialize-textarea" cols="30" rows="10"></textarea>
+                <label for="textarea1">Enter Your Guess</label>
+                
+                    <button id="guess-btn" class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+                    <p id="message"></p>
+               
+
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
